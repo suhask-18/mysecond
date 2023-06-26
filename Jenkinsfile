@@ -23,7 +23,7 @@ pipeline {
        }  
        stage ('DEPLOY1') {
            steps {
-                sh 'sleep 5'
+                sh 'sleep 4'
            }
        }     
     }
