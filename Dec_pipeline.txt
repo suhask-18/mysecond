@@ -1,21 +1,8 @@
-pipeline {
-    agent any
+#!/bin/bash
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-}
+
+mkdir $newfolder
+
+
+echo "Hi I am Suhas" > $DIRECTORY_NAME/myfile.txt
+
