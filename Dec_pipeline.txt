@@ -4,5 +4,5 @@
 mkdir $newfolder
 
 
-echo "Hi I am Suhas" > $DIRECTORY_NAME/myfile.txt
+echo "Hi I am Suhas" > $newfolder/myfile.txt
 
